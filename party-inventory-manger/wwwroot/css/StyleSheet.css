@@ -1,0 +1,49 @@
+﻿h1 {
+    text-align: center;
+    font-size: 36pt;
+    color: black;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+table {
+    margin: 5px;
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 3px;
+}
+
+td {
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid black;
+}
+
+#coinTable {
+
+}
+
+.platinumRow {
+    background-color: #fff2ff;
+}
+
+.goldRow {
+    background-color: #ffe699;
+}
+
+.silverRow {
+    background-color: #e6e6e6;
+}
+
+.copperRow {
+    background-color: #ffd670;
+}
+
+.totalRow {
+    background-color: antiquewhite;
+    border-top: solid black;
+}

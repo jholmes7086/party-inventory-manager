@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<head>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<div class="row">
+    <h1>Welcome to the Party Inventory Manager</h1>
+    <div class="col-md-4">
+        <h2>All Your Shit</h2>
+        <!-- table that displays all the persons stuff-->
+        <table style="width:100%">
+            <tr style="border:thin solid">
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Location</th>
+                <th>Weight</th>
+            </tr>
+        </table>
+    </div>
+    <div class="col-md-4">
+        <h2>Look per container</h2>
+        <!-- A graphical thing (or list for now) that shows all ther person's containers. clicking will take to the container-->
+        <ul>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>Coinpurse</h2>
+        <!--shows the person's cash, add spend here?-->
+        <table id="coinTable">
+
+            <tr class="platinumRow">
+                <td>Platinum (pp)</td>
+                <td>@ViewData["Platinum"]</td>
+            </tr>
+            <tr class="goldRow">
+                <td>Gold (gp)</td>
+                <td>@ViewData["Gold"]</td>
+            </tr>
+            <tr class="silverRow">
+                <td>Silver (sp)</td>
+                <td>@ViewData["Silver"]</td>
+            </tr>
+            <tr class="copperRow">
+                <td>Copper (cp)</td>
+                <td>@ViewData["Copper"]</td>
+            </tr>
+            <tr class="totalRow">
+                <td>Total (gp)</td>
+                <td>@ViewData["Total"]</td>
+            </tr>
+        </table>
+    </div>
+</div>

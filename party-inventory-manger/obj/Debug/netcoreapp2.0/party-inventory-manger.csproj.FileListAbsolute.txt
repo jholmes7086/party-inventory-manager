@@ -1,0 +1,11 @@
+D:\Programming\party-inventory-manger\party-inventory-manger\bin\Debug\netcoreapp2.0\party-inventory-manger.deps.json
+D:\Programming\party-inventory-manger\party-inventory-manger\bin\Debug\netcoreapp2.0\party-inventory-manger.runtimeconfig.json
+D:\Programming\party-inventory-manger\party-inventory-manger\bin\Debug\netcoreapp2.0\party-inventory-manger.runtimeconfig.dev.json
+D:\Programming\party-inventory-manger\party-inventory-manger\bin\Debug\netcoreapp2.0\party-inventory-manger.dll
+D:\Programming\party-inventory-manger\party-inventory-manger\bin\Debug\netcoreapp2.0\party-inventory-manger.pdb
+D:\Programming\party-inventory-manger\party-inventory-manger\obj\Debug\netcoreapp2.0\party-inventory-manger.csprojAssemblyReference.cache
+D:\Programming\party-inventory-manger\party-inventory-manger\obj\Debug\netcoreapp2.0\party-inventory-manger.csproj.CoreCompileInputs.cache
+D:\Programming\party-inventory-manger\party-inventory-manger\obj\Debug\netcoreapp2.0\party-inventory-manger.AssemblyInfoInputs.cache
+D:\Programming\party-inventory-manger\party-inventory-manger\obj\Debug\netcoreapp2.0\party-inventory-manger.AssemblyInfo.cs
+D:\Programming\party-inventory-manger\party-inventory-manger\obj\Debug\netcoreapp2.0\party-inventory-manger.dll
+D:\Programming\party-inventory-manger\party-inventory-manger\obj\Debug\netcoreapp2.0\party-inventory-manger.pdb
