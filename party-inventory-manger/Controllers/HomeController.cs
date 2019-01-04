@@ -12,11 +12,12 @@ namespace PartyInventoryManger.Controllers
     {
         public IActionResult Index()
         {
-            ViewData["Platinum"] = "0";
-            ViewData["Gold"] = "0";
-            ViewData["Silver"] = "0";
-            ViewData["Copper"] = "0";
-            ViewData["Total"] = "0";
+            Wallet wallet = PartyInventoryManger.Services.WalletService.GetWallet(0);
+            //ViewData["Platinum"] = "1";
+            //ViewData["Gold"] = "0";
+            //ViewData["Silver"] = "0";
+            //ViewData["Copper"] = "0";
+            //ViewData["Total"] = "0";
             return View();
         }
 

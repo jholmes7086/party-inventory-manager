@@ -7,6 +7,7 @@
 
 <head>
     <link href="~/css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <script> src="~/js/HomeScript.js" type="text/javascript" </script>
 </head>
 
 <div class="row">
@@ -38,46 +39,29 @@
         <!--shows the person's cash, add spend here?-->
         <table id="coinTable">
 
-            @*<tr class="platinumRow">
-                <td>Platinum (pp)</td>
-                <td>@ViewData["Platinum"]</td>
-            </tr>
-            <tr class="goldRow">
-                <td>Gold (gp)</td>
-                <td>@ViewData["Gold"]</td>
-            </tr>
-            <tr class="silverRow">
-                <td>Silver (sp)</td>
-                <td>@ViewData["Silver"]</td>
-            </tr>
-            <tr class="copperRow">
-                <td>Copper (cp)</td>
-                <td>@ViewData["Copper"]</td>
-            </tr>
-            <tr class="totalRow">
-                <td>Total (gp)</td>
-                <td>@ViewData["Total"]</td>
-            </tr>*@
-
             @{ 
                 int i = 0;
                 foreach (CurrencyCount currencyCount in Model.Funds)
                 {
-                    <tr style="background-color: @currencyCount.Currency.Color; " >
+                    <tr style="background-color: @currencyCount.Currency.Color; ">
                         <td>
                             @Html.EditorFor(o => o.Funds[i].Currency.Name)
                         </td>
                         <td>
                             @Html.EditorFor(o => o.Funds[i].Quantity)
-
                         </td>
                     </tr>
                     i++;
                 }
+                <tr class="totalRow">
+                    <td>Total</td>
+                    <td> @PartyInventoryManger.Controllers.CoinPurseController.GetTotalFunds(Model)</td>
+                </tr>
             }
         </table>
 
-        <button>Add a Gold</button>
+        <button onclick="AddGoldOnClick()">Add a Gold</button>
         <button>Remove a Gold</button>
     </div>
 </div>
+

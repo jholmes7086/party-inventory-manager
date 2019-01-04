@@ -6,6 +6,25 @@
     text-decoration: underline;
 }
 
+h2 {
+    text-align: center;
+    font-size: 24pt;
+    color: black;
+    margin-bottom: 5px;
+}
+
+body {
+    width: 100%;
+}
+
+html {
+    width: 100%;
+}
+
+/*div {
+    width: 100%;
+}*/
+
 table {
     margin: 5px;
     border: 1px solid black;
@@ -24,7 +43,7 @@ td {
 }
 
 #coinTable {
-
+    width: 100%;
 }
 
 .platinumRow {
@@ -46,4 +65,17 @@ td {
 .totalRow {
     background-color: antiquewhite;
     border-top: solid black;
+}
+
+.placeButton{
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+#containerTable{
+    text-align: center;
 }
